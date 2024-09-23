@@ -1,0 +1,277 @@
+body {
+  background-color: white;
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #0F52BA;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: : 3rem;
+  line-height: 1.5;
+}
+.Order-btn:hover{
+  background-color: red;
+  color: white;
+  border-width: thin;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+
+.nav-item {
+  padding: 0 18px;
+
+}
+
+.nav-link {
+  font-size: 1rem;
+
+}
+.order-link{
+  border-radius: 10%;
+}
+.download-btn {
+  margin: 5% 3% 5% 0;
+  line-height: 1.5;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  border-radius: 10%;
+}
+
+@media (max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+
+  .title-image {
+    position: static;
+    transform: none;
+    margin-top: 70px;
+  }
+}
+
+.work{
+background-color: white;
+text-align: center;
+
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+p {
+  color: grey;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #0F52BA;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #0F52BA;
+}
+.hotline-bar{
+    text-align: right;
+    padding-top:20px;
+    padding-right:30px;
+}
+
+.yellowbar{
+    background: white;
+    padding: 5px;
+    font-size: 18px;
+    text-align: left;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-weight: 600;
+    color:#000000;
+    float: right;
+}
+
+.blackbar{
+    background:#FF7600;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+    text-align: left;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    font-weight: 600;
+    color:#ffffff;
+    float: right;
+
+}
+
+.mobiledialbar{
+    background: #BA770F;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 30px;
+    padding: 4px;
+    font-size: 18px;
+
+}
+@media only screen and (max-width: 500px) {
+  .mobiledialbar{
+      font-size: 16px;
+
+  }
+  .hotline-bar{
+    width:  100%;
+  }
+
+}
+.dummylink{
+    text-decoration: none;
+    color: #000000;
+}
+
+.dummylink:hover{
+    text-decoration: none;
+    color: #000000;
+}
+.homesupportbtn{
+    background:red;
+    width:150px;
+    height:150px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size:12px;
+    color: white;
+    border-radius: 75px;
+    vertical-align: middle;
+    border:15px solid #FFECB3;
+    padding-top:45px;
+    line-height: 14px;
+    margin-top: 25px;
+}
+
+.homesupportbtn:hover{
+    cursor: pointer;
+     border:10px solid white;
+}
+#testimonials {
+
+  background-color:#0F52BA;
+  color: white;
+}
+.testi-text{
+  color: white;
+}
+.carousel-item {
+  padding: 7% 15%;
+  height: 500px;
+color: white;
+}
+@media (max-width:1000px) {
+  .carousel-item {
+    padding: 7% 15%;
+    height: 500px;
+  }
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #0F52BA;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #0F52BA;
+  padding: 7% 15%;
+  color: white;
+  text-align: center;
+}
+
+.cta-heading {
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+
+.ic {
+  margin: 20px 10px;
+  color: black;
+
+}
+.ic:hover{
+  color: red;
+  text-decoration: none;
+}
+#footer {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #0F52BA;
+}
+.copyright{
+  color: lightgrey;
+}
+.top-icon{
+  color: black;
+  position: fixed;
+right:  300px;
+}
